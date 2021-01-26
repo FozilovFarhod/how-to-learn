@@ -9,9 +9,10 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
+  padding: 0;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  padding: 0;
+
 }
 
 .header {
@@ -141,6 +142,7 @@
   .section-subtitle_theme_dark{
     color: white;
   }
+
 .table {
   width: 1100px;
   padding: 0;
@@ -149,6 +151,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .table_theme_dark{
   margin-bottom: 90px;
 }
@@ -192,6 +195,7 @@
   bottom: 0;
   left: 0;
   }
+
 .feynman__title{
   line-height: 1.15em;
   width: 648px;
@@ -200,6 +204,7 @@
   margin: 0 auto 70px;
   z-index: 1;
 }
+
 .feynman__subtitle{
   line-height: 51px;
   font-size: 36px;
@@ -262,8 +267,6 @@
   flex-direction: column;
   margin: 20px 0 16px;
   text-decoration: none;
-
-
   }
   .footer__column-links img{
     vertical-align: text-bottom;
@@ -273,18 +276,15 @@
     color: white;
   }
 
-
 .footer__social-icon{
   width: 16px;
   height: 16px;
   padding-right: 10px;
   }
 
-
 .footer__column_content_social{
   display: flex;
   flex-direction: column;
-
 }
 .footer__author{
   margin: 18px 0;
